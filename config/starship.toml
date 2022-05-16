@@ -1,0 +1,87 @@
+format = """
+[](#4f4f4f)\
+[ ﬦ](fg:#d4690d bg:#4f4f4f)\
+$username\
+[](bg:#828282 fg:#4f4f4f)\
+$directory\
+[](fg:#828282 bg:#a35536)\
+$git_branch\
+$git_status\
+[](fg:#a35536 bg:#688ea3)\
+$nodejs\
+$rust\
+$python\
+$scala\
+[](fg:#688ea3 bg:#33658A)\
+$time\
+[ ](fg:#33658A)
+$character
+"""
+
+# Disable the blank line at the start of the prompt
+# add_newline = false
+
+# You can also replace your username with a neat symbol like  to save some space
+[username]
+show_always = true
+style_user = "fg:#000000 bg:#4f4f4f"
+style_root = "bg:#595959"
+format = '[ $user ]($style)'
+
+[directory]
+style = "bg:#828282"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "פּ/"
+
+[character]
+success_symbol = "[  ](fg:#329690)"
+error_symbol = "[ﱗ ](fg:#963232)"
+
+# Here is how you can shorten some long paths by text replacement
+# similar to mapped_locations in Oh My Posh:
+[directory.substitutions]
+"Documents" = " "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+# Keep in mind that the order matters. For example:
+# "Important Documents" = "  "
+# will not be replaced, because "Documents" was already substituted before.
+# So either put "Important Documents" before "Documents" or use the substituted version:
+# "Important  " = "  "
+
+[git_branch]
+symbol = ""
+style = "bg:#a35536"
+format = '[[ $symbol $branch ](bg:#a35536)]($style)'
+
+[git_status]
+style = "bg:#a35536"
+format = '[[($all_status$ahead_behind )](bg:#a35536)]($style)'
+
+[nodejs]
+symbol = ""
+style = "bg:#688ea3"
+format = '[[ $symbol ($version) ](bg:#688ea3)]($style)'
+
+[rust]
+symbol = ""
+style = "bg:#8c8b3c"
+format = '[[ $symbol ($version) ](bg:#688ea3)]($style)'
+
+[python]
+symbol = ""
+style = "fg:#cfcf6d bg:#688ea3"
+format = '[ $symbol [ ($version) $virtualenv ](bg:#688ea3)]($style)'
+
+[scala]
+symbol = ""
+style = "bg:#cf6d6d"
+format = '[ $symbol  [ ($version) ](bg:#688ea3)]($style)'
+
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "bg:#33658A"
+format = '[[  $time ](bg:#33658A)]($style)'
