@@ -17,6 +17,7 @@
     "editorWidget.background": "#132749",
     "editorWidget.foreground": "#4bc9fb",
     "gitDecoration.ignoredResourceForeground": "#6665bcdf",
+    "icon.foreground": "#11b597",
     "input.background": "#273c5b",
     "input.placeholderForeground": "#8fb0c3",
     "list.activeSelectionBackground": "#36154873",
