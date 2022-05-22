@@ -1,4 +1,36 @@
 {
+  "editor.tokenColorCustomizations": {
+    "[Default Dark+]": {
+      "textMateRules": [
+        {
+          "scope": "constant.numeric",
+          "settings": {
+            "foreground": "#9ece84"
+          }
+        },
+        {
+          "scope": "constant.language.python",
+          "settings": {
+            "fontStyle": "bold",
+            "foreground": "#7f8bd6"
+          }
+        },
+        {
+          "scope": "storage.type",
+          "settings": {
+            "fontStyle": "bold italic"
+          }
+        },
+        {
+          "scope": "variable.parameter.function.language.special.self.python",
+          "settings": {
+            "fontStyle": "italic",
+            "foreground": "#64c6fb"
+          }
+        }
+      ]
+    }
+  },
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#1d243b",
     "activityBar.background": "#222e51",
