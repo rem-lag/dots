@@ -27,6 +27,12 @@
             "fontStyle": "italic",
             "foreground": "#64c6fb"
           }
+        },
+        {
+          "scope": "entity.name.function",
+          "settings": {
+            "foreground": "#d2d290"
+          }
         }
       ]
     }
