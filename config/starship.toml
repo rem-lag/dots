@@ -12,6 +12,7 @@ $nodejs\
 $rust\
 $python\
 $scala\
+$golang\
 [](fg:#688ea3 bg:#33658A)\
 $time\
 [ ](fg:#33658A)
@@ -67,18 +68,23 @@ format = '[[ $symbol ($version) ](bg:#688ea3)]($style)'
 
 [rust]
 symbol = ""
-style = "bg:#8c8b3c"
-format = '[[ $symbol ($version) ](bg:#688ea3)]($style)'
+style =  "fg:#ad3a1a bg:#688ea3"
+format = '[ $symbol [ ($version) ](bg:#688ea3)]($style)'
+
+[golang]
+symbol = ""
+style =  "fg:#001a29 bg:#688ea3"
+format = '[ $symbol [ ($version) ](bg:#688ea3)]($style)'
 
 [python]
-symbol = ""
+symbol = ""
 style = "fg:#cfcf6d bg:#688ea3"
 format = '[ $symbol [ ($version) $virtualenv ](bg:#688ea3)]($style)'
 
 [scala]
 symbol = ""
-style = "bg:#cf6d6d"
-format = '[ $symbol  [ ($version) ](bg:#688ea3)]($style)'
+style = "fg:#a30202 bg:#688ea3"
+format = '[ $symbol [ ($version) $virtualenv ](bg:#688ea3)]($style)'
 
 [time]
 disabled = false
