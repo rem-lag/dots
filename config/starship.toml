@@ -77,7 +77,7 @@ style =  "fg:#001a29 bg:#688ea3"
 format = '[ $symbol [ ($version) ](bg:#688ea3)]($style)'
 
 [python]
-symbol = ""
+symbol = ""
 style = "fg:#cfcf6d bg:#688ea3"
 format = '[ $symbol [ ($version) $virtualenv ](bg:#688ea3)]($style)'
 
