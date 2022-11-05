@@ -91,5 +91,28 @@
     "tab.inactiveBackground": "#0e121c",
     "titleBar.activeBackground": "#000000",
     "titleBar.activeForeground": "#879dfd"
-  }
+  },
+  "discord.removeRemoteRepository": true,
+  "gopls": { "ui.semanticTokens": true },
+  "editor.lineNumbers": "relative",
+  "explorer.fileNesting.enabled": true,
+  "explorer.openEditors.sortOrder": "fullPath",
+  "vim.visualModeKeyBindings": [
+    {
+        "before": [
+            ">"
+        ],
+        "commands": [
+            "editor.action.indentLines"
+        ]
+    },
+    {
+        "before": [
+            "<"
+        ],
+        "commands": [
+            "editor.action.outdentLines"
+        ]
+    }
+]
 }
