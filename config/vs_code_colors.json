@@ -33,6 +33,12 @@
           "settings": {
             "foreground": "#d2d290"
           }
+        },
+        {
+          "scope": "string.quoted.docstring",
+          "settings": {
+            "foreground": "#ce9178"
+          }
         }
       ]
     }
@@ -84,6 +90,9 @@
     "sideBarSectionHeader.border": "#000000",
     "sideBarSectionHeader.foreground": "#90cff9",
     "statusBar.background": "#112b38",
+    "statusBar.foreground": "#879dfd",
+    "statusBarItem.settingsProfilesBackground": "#112b38",
+    "statusBar.noFolderBackground": "#112b38",
     "statusBarItem.remoteBackground": "#3b6795",
     "tab.activeBackground": "#000000",
     "tab.activeForeground": "#c4f8fe",
