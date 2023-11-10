@@ -91,6 +91,8 @@
     "sideBarSectionHeader.foreground": "#90cff9",
     "statusBar.background": "#112b38",
     "statusBar.foreground": "#879dfd",
+    "statusBar.debuggingBackground": "#017bbdca",
+    "statusBar.debuggingForeground": "#ffa03bd2",
     "statusBarItem.settingsProfilesBackground": "#112b38",
     "statusBar.noFolderBackground": "#112b38",
     "statusBarItem.remoteBackground": "#3b6795",
